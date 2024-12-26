@@ -45,4 +45,33 @@ const myFunction = function(){
 }
 
 
-console.log(typeof heros);
+// console.log(typeof heros);
+
+
+//***********************************************************************************
+
+//stack(Primitive), Heap(Non primitive)
+
+let myEmail = "nitin@google.com"
+
+let anotherEmail = myEmail
+anotherEmail = "shukla@google.com"
+
+console.log(myEmail)
+console.log(anotherEmail)
+
+
+
+
+let userOne = {
+    email: "ni3@google.com",
+    upi: "shukla@ybl"
+
+}
+
+let userTwo = userOne 
+userTwo.email = "shukla@google.com"
+
+
+console.log(userOne.email);
+console.log(userTwo.email);
