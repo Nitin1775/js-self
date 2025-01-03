@@ -45,4 +45,4 @@ console.log(myn2); //[ 1, 2, 3 ]
 console.log("C ", myArray); //C  [ 0, 4, 5 ]
 
 
-
+// one more thing about splice is : in the parameter of splice, the first one is starting index and the second parameter is length of the splice(not the ending index), Hope you find it useful
