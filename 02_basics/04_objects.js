@@ -50,12 +50,40 @@ const users = [
 
 
 users[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
 
-console.log(Object.keys(tinderUser)); //[ 'id', 'name', 'isLoggedIn' ]
-console.log(Object.values(tinderUser)); //[ '123abc', 'Nitin', false ]
-console.log(Object.entries(tinderUser)); //[ [ 'id', '123abc' ], [ 'name', 'Nitin' ], [ 'isLoggedIn', false ] ]
+// console.log(Object.keys(tinderUser)); //[ 'id', 'name', 'isLoggedIn' ]
+// console.log(Object.values(tinderUser)); //[ '123abc', 'Nitin', false ]
+// console.log(Object.entries(tinderUser)); //[ [ 'id', '123abc' ], [ 'name', 'Nitin' ], [ 'isLoggedIn', false ] ]
 
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // (true) this is used to find if there any value exits or not 
+//console.log(tinderUser.hasOwnProperty('isLoggedIn'));  // (true) this is used to find if there any value exits or not
+
+
+//***********************next class *************************
+
+
+
+const course = {
+    coursename: "js in hindi",
+    price: "999",
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+
+
+const {courseInstructor: Instructor} = course
+
+//console.log(courseInstructor);
+console.log(Instructor);
+
+
+// json
+// {
+//     "name": "nitin",
+//     "coursename": "js in hindi",
+//     "price": "free"
+// }
+
